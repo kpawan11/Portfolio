@@ -1,0 +1,331 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" href="E:\Git\Portfolio\images\P_circle_logo.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        .btn-lg:hover {
+            color: darkslateblue;
+        }
+        .img{
+            width:150px;
+            height:150px;
+        }
+        .skillicon{
+            width:100px;
+            height:100px;
+        }
+    </style>
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-2 fixed-top">
+        <div class="container p-2">
+            <div class="container">
+                <img class="rounded-circle float-start" style="width:50px;height:50px;" src="E:\Git\Portfolio\images\P_logo.png" />
+                <h3 class="navbar-brand py-3">&nbsp; Kishore <span class="text-primary">Pavan</span></h3>
+
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#experience" class="nav-link btn-lg">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#education" class="nav-link btn-lg">education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link btn-lg">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link btn-lg">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link btn-lg">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+    </nav>
+    <!--profile section-->
+    <section class="bg-dark text-light p-5 text-center text-sm-start">
+        <div class="container">
+            <div class="row align-items-center ">
+                <div class="col-md px-5">
+                    <div class="float-end py-5 px-5">
+                        <img style="width:300px;left:550px;" class="img-fluid rounded-circle img-thumbnail" src="E:\Git\Portfolio\images\Profile.jpg" />
+                    </div>
+                </div>
+                <div class="col-md p-5">
+                    <p class="text-muted">Trainee Developer</p>
+                    <h2>Kishore Pavan</h2>
+                    <p>
+                        Working as <em>Trainee Developer</em> for <b>Astir IT Solutions Pvt Ltd</b> from April 2020 to Till date.
+                    </p>
+
+                    <button type="button" style="border-radius:50px;border-width:2px;" class="btn btn-outline-primary"><a href="https://docs.google.com/document/d/16IQW_zPTWx4a7Y2B74hhDwZWAkFO1K0t/edit?usp=sharing&ouid=105889026733693369157&rtpof=true&sd=true">Download CV</a></button>
+                    <button type="button" style="border-radius:50px;border-width:1px;" class="btn btn-outline-secondary"><a href="#contact">Contact</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Experience-->
+    <section class="p-5" id="experience">
+        <h5>Experience Summary :</h5>
+        <section id="instructors" class="p-5 bg-primary">
+            <div class="container">
+                <p class="lead text-center text-white mb-5">
+                    Having Around 2 years of experience in IT industry.
+                </p>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card bg-light">
+                            <div class="card-body text-center">
+                                <img class="round-circle mb-3" style="width:200px;height:200px;" src="https://th.bing.com/th/id/OIP.G_6fXJDCdojhcLM2HBaD1wHaHa?pid=ImgDet&rs=1" />
+                                <!--<h3 class="card-text">Kishore</h3>
+                                <p class="card-text">
+                                    Lorem opsum dolor sit amet consectetur adipsicing
+                                    elit. Assumenda accusamus nobis
+                                    sed cupiditate iusto? Quibusdam.
+                                </p>-->
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card bg-light" style="width:850px;height:250px;">
+                            <div class="card-body text-start">
+
+                                <p class="card-text">
+                                    <ul class="lead">
+                                        <li>have been involved in Design and development of web application in C#, ASP.NET, MSSQL.</li>
+                                        <li>Software developing expertise including designing/modeling, programming/Coding of server side components.</li>
+                                        <li>Experience in working with Web Services and WCF.</li>
+                                        <li>Experience in working with Front-end technologies like	HTML, JAVASCRIPT, JQUERY, AJAX CALLS.</li>
+                                    </ul>
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </section>
+
+    <!--Education-->
+    <section id="education" class="bg-primary text-dark p-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img class="img-fluid" src="E:\Git\Portfolio\images\education.png" />
+                </div>
+                <div class="col-md p-5">
+                    <h2>Education :</h2>
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    Btech
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">I did my graduation in ECE from Rajamahendri Institute of Engineering and Technology (RIET),Rajahmundry with 63%</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                    Intermediate
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">I did my Intermediate in MPC from Aditya Junior College,Rajahmundry with 82%</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                    SSC
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">I did my Intermediate in SSC from BSSSB high School,Rajahmundry with 90%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--skills-->
+    <section id="skills" class="p-5">
+        <div class="container">
+            <h3 class="card-title mb-3">Skills :</h3>
+            <div class="row text-center g-4">
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <h3 class="card-title mb-3">Technologies&Languages</h3>
+                            <div class="row">
+                                <div class="col p-1">
+                                    <img class="skillicon" src="E:\Git\Portfolio\images\csharp.jpg" />
+                                </div>
+                                <div class="col p-1">
+                                    <img class="skillicon" src="E:\Git\Portfolio\images\asp.png" />
+                                </div>
+                                <div class="col p-1">
+                                    <img class="skillicon" src="E:\Git\Portfolio\images\ado.png" />
+                                </div>
+                            </div>
+                            <div class="row p-1">
+                                <div class="col p-1">
+                                    <img class="skillicon" src="E:\Git\Portfolio\images\wcf.png" />
+                                </div>
+                                <div class="col p-1">
+                                    <img class="skillicon" src="E:\Git\Portfolio\images\java.jpg" />
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <h3 class="card-title mb-3">Web Technologies</h3>
+                            <div class="row p-1">
+                                <div class="col">
+                                    <img class="skillicon" src="E:\Git\Portfolio\images\html.png" />
+                                </div>
+
+                            </div>
+                            <div class="row p-1">
+                                <div class="col">
+                                    <img class="skillicon" src="E:\Git\Portfolio\images\ajax.jpeg" />
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <h3 class="card-title mb-3">Database</h3>
+                            <div class="row p-1">
+                                <div class="col">
+                                    <img class="skillicon" src="E:\Git\Portfolio\images\mssql.png" />
+                                </div>
+                            </div>
+                            <div class="row p-1">
+                                <div class="col">
+                                    <img class="skillicon" src="E:\Git\Portfolio\images\oracle.jpg" />
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--projects-->
+    <section id="projects" class="p-5 bg-primary">
+        <div class="container">
+            <div class="row g-4 p-5">
+                <div class="col-md-6 col-lg-3">
+                    <h2 class="text-center text-white">Projects I have worked on :</h2>
+                </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card bg-light">
+                            <div class="card-body text-center">
+                                <img class="img" src="E:\Git\Portfolio\images\hubentry.png" />
+                                <h3 class="card-text">Hubentry</h3>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card bg-light">
+                            <div class="card-body text-center">
+                                <img class="img" src="E:\Git\Portfolio\images\wcs.jpg" />
+                                <h3 class="card-text">WCS Reporting</h3>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!--contact-->
+    <section id="contact" class="p-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md">
+                    <h2 class="text-center" mb-4>Contact Info</h2>
+                    <ul class="list-group list-group-flush lead">
+                        <li class="list-group-item">
+                            <span class="fw-bold">Loacation:</span>Rajamundry.
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Email:</span>pawanturupati@gmail.com
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Phone:</span>9966909420
+                        </li>
+                        <li class="list-group-item">
+                            <a href="https://www.linkedin.com/in/pavan-turupati-002764195"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md">
+                    <div id='map' style='width: 400px; height: 300px;'></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--footer-->
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+        <div class="container">
+            <p class="lead">
+                Copyright &copy; 2022
+            </p>
+            <a href="" class="position-absolute bottom-0 end-0 p-5">
+                <i class="bi bi-arrow-up-circle h1"></i>
+            </a>
+        </div>
+    </footer>
+
+
+
+
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1Ijoia2lzaG9yZXBhdmFuIiwiYSI6ImNreWxpNWNucTM2cHQyd3A4c2V2cGtreWoifQ.HXN7LZjkJMJC-yuEXBZCbg';
+        var map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/streets-v11',
+            center: [81.783325, 17.004393],
+            zoom: 12
+        });
+    </script>
+</body>
+</html>
